@@ -1,0 +1,49 @@
+
+.navbar{
+    width: 25%;
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 32px;
+    .nav-title{
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/e14818f156111b5b0a00492903c1552d319ec9c5/week5/logo-ANSWER.svg);
+        @include text-hide;
+        display: block;
+        width: 151px;
+        height: 40px;
+    }
+    .list-item{
+        margin-bottom: 29px;
+        a{
+            color: #212529;
+            font-weight: bold;
+        }
+        a:hover{
+            color:#198754;
+        }
+        span{
+            margin-right: 16px;
+        }
+        .active{
+            color:#198754;
+        }
+        
+    }
+}
+
+.profile{
+    word-wrap: normal;
+    flex-direction: row;
+    .avatar{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .profile-name{
+        font-weight: bold;
+    }
+    .profile-mail{
+        font-size: 14px;
+        color: #6C757D;
+    }
+}

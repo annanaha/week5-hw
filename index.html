@@ -1,10 +1,81 @@
----
-title: 首頁
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>首頁</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/classic/ckeditor.js"></script>
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <div class="container-fluid d-flex">
+    <!-- 導覽列 -->
+  <nav class="navbar navbar-light bg-light align-items-start">
+    <div >
+      <h1>
+        <a class="nav-title mb-8" href="#">
+          ANSWER
+        </a>
+      </h1>
+      <ul class="list-group">
+        <li class="list-item"><a class="d-flex align-items-center" href="#">
+            <span class="material-icons">
+              assessment
+            </span>
+  
+            Dashboard</a></li>
+        <li class="list-item"><a class="d-flex align-items-center" href="#">
+            <span class="material-icons">
+              question_answer
+            </span>
+            Question</a></li>
+        <li class="list-item"><a class="d-flex align-items-center active" href="#">
+            <span class="material-icons">
+              assignment
+            </span>
+  
+            Assignment</a></li>
+        <li class="list-item"><a class="d-flex align-items-center" href="#">
+            <span class="material-icons">
+              video_library
+            </span>
+            Course</a></li>
+        <li class="list-item"><a class="d-flex align-items-center" href="#">
+            <span class="material-icons">
+              people
+            </span>
+            Admin</a></li>
+        <li class="list-item"><a class="d-flex align-items-center" href="#">
+            <span class="material-icons">
+              settings
+            </span>
+            Settings</a></li>
+      </ul>
+    </div>
+    <!-- 個人資訊 -->
+    <div class="profile d-flex">
+      
+      <img class="avatar me-3"
+        src="https://images.unsplash.com/photo-1514794749374-fb67509dbb7f?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=2000&q=80"
+        alt="個人照片">
+      
+  
+      <div class="col-8 p-0">
+        <h3 class="profile-name">Andy Chen</h3>
+        <p class="profile-mail">andy0401@mail.com</p>
+      </div>
+    </div>
+   
+  
+  </nav>
+
+  
 
 <div class="assignment">
   <!-- header -->
@@ -237,3 +308,12 @@ current: index
       console.error(error);
     });
 </script>
+
+</div>
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+
+</html>

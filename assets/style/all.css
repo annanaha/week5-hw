@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  /* font: inherit; */
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  line-height: 1.5;
+  font-family: "Lato", "Noto Sans", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
+
+h2 {
+  font-size: 24px; }
+
+h3 {
+  font-size: 16px; }
+
+.mb-8 {
+  margin-bottom: 32px; }
+
+.navbar {
+  width: 25%;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 32px; }
+  .navbar .nav-title {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/e14818f156111b5b0a00492903c1552d319ec9c5/week5/logo-ANSWER.svg);
+    text-indent: 110%;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    width: 151px;
+    height: 40px; }
+  .navbar .list-item {
+    margin-bottom: 29px; }
+    .navbar .list-item a {
+      color: #212529;
+      font-weight: bold; }
+    .navbar .list-item a:hover {
+      color: #198754; }
+    .navbar .list-item span {
+      margin-right: 16px; }
+    .navbar .list-item .active {
+      color: #198754; }
+
+.profile {
+  word-wrap: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  .profile .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .profile .profile-name {
+    font-weight: bold; }
+  .profile .profile-mail {
+    font-size: 14px;
+    color: #6C757D; }
+
+.assignment {
+  width: 75%;
+  padding: 32px; }
+  .assignment .header {
+    margin-bottom: 43px; }
+    .assignment .header .assignment-title {
+      margin-right: 48px; }
+  .assignment .dropdown-icon {
+    color: #198754; }
+  .assignment .header-icon span {
+    color: #212529; }
+  .assignment .commit {
+    color: #6C757D;
+    font-size: 12px; }
+
+.Classification {
+  margin-bottom: 6px; }
+
+.assignment-list {
+  width: 35%;
+  font-size: 12px; }
+  .assignment-list .assignment-name {
+    color: #6C757D; }
+
+.assignment-info {
+  width: 63%;
+  position: relative; }
+
+.infobox {
+  border: 1px solid #CED4DA; }
+  .infobox .info-title {
+    font-size: 12px; }
+  .infobox .list-group-item {
+    background-color: #F8F9FA;
+    border: 0;
+    border-bottom: 1px solid #CED4DA; }
+  .infobox .assignment-photo {
+    width: 10%; }
+  .infobox .info-text {
+    border-bottom: 1px solid #CED4DA;
+    width: 90%; }
+  .infobox .photo {
+    width: 40px;
+    height: 40px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 50%; }
+  .infobox .time-text {
+    font-size: 12px; }
+  .infobox .assignment-text {
+    font-size: 14px; }
+  .infobox .attached {
+    background-color: #F8F9FA;
+    border: 1px solid #CED4DA;
+    padding: 10px;
+    border-radius: 2px;
+    width: 40%; }
+
+.return .btn {
+  padding: 8px 32px;
+  border-radius: 2px; }
+
+.list-group-item.active {
+  background-color: #F8F9FA;
+  color: #212529;
+  border: 1px solid #CED4DA; }
+
+.editorbox {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+
+.editor-btn {
+  position: absolute;
+  bottom: 16px;
+  right: 24px; }
+
+.ck-editor__editable {
+  min-height: 319px; }
+
+/*# sourceMappingURL=all.css.map */
